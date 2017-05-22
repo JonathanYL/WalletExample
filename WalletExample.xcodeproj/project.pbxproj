@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		478489640CC27503FC80EE22 /* libPods-WalletExample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 389A16F2D40EAFCD02C1EF39 /* libPods-WalletExample.a */; };
+		AB1BEECD1ED23ECB00061368 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1BEECC1ED23ECB00061368 /* SceneKit.framework */; };
+		AB1BEED01ED23EF300061368 /* ParticleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BEECF1ED23EF300061368 /* ParticleScene.m */; };
+		AB1BEED21ED24CBC00061368 /* Fireflies.sks in Resources */ = {isa = PBXBuildFile; fileRef = AB1BEED11ED24CBC00061368 /* Fireflies.sks */; };
+		AB1BEED81ED2501000061368 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = AB1BEED71ED2501000061368 /* Spark.sks */; };
+		AB1BEEDB1ED27D2F00061368 /* AnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BEEDA1ED27D2F00061368 /* AnimationController.m */; };
+		AB564D861ED10E53000471BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB564D851ED10E53000471BC /* main.m */; };
+		AB564D891ED10E53000471BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB564D881ED10E53000471BC /* AppDelegate.m */; };
+		AB564D8C1ED10E53000471BC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB564D8B1ED10E53000471BC /* ViewController.m */; };
+		AB564D8F1ED10E53000471BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB564D8D1ED10E53000471BC /* Main.storyboard */; };
+		AB564D911ED10E53000471BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB564D901ED10E53000471BC /* Assets.xcassets */; };
+		AB564D941ED10E53000471BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB564D921ED10E53000471BC /* LaunchScreen.storyboard */; };
+		AB564D9E1ED10EE8000471BC /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB564D9C1ED10EE8000471BC /* CardCell.m */; };
+		AB564D9F1ED10EE8000471BC /* CardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB564D9D1ED10EE8000471BC /* CardCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		389A16F2D40EAFCD02C1EF39 /* libPods-WalletExample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WalletExample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE43FF2915C1C315B0748AA /* Pods-WalletExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalletExample/Pods-WalletExample.release.xcconfig"; sourceTree = "<group>"; };
+		AB1BEECC1ED23ECB00061368 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
+		AB1BEECE1ED23EF300061368 /* ParticleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleScene.h; sourceTree = "<group>"; };
+		AB1BEECF1ED23EF300061368 /* ParticleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleScene.m; sourceTree = "<group>"; };
+		AB1BEED11ED24CBC00061368 /* Fireflies.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fireflies.sks; sourceTree = "<group>"; };
+		AB1BEED71ED2501000061368 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		AB1BEED91ED27D2F00061368 /* AnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationController.h; sourceTree = "<group>"; };
+		AB1BEEDA1ED27D2F00061368 /* AnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationController.m; sourceTree = "<group>"; };
+		AB564D811ED10E53000471BC /* WalletExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalletExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB564D851ED10E53000471BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB564D871ED10E53000471BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB564D881ED10E53000471BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB564D8A1ED10E53000471BC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AB564D8B1ED10E53000471BC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AB564D8E1ED10E53000471BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB564D901ED10E53000471BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB564D931ED10E53000471BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB564D951ED10E53000471BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB564D9B1ED10EE8000471BC /* CardCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		AB564D9C1ED10EE8000471BC /* CardCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		AB564D9D1ED10EE8000471BC /* CardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCell.xib; sourceTree = "<group>"; };
+		F0A1DE7D7EFCF89212FCB475 /* Pods-WalletExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalletExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WalletExample/Pods-WalletExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB564D7E1ED10E53000471BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1BEECD1ED23ECB00061368 /* SceneKit.framework in Frameworks */,
+				478489640CC27503FC80EE22 /* libPods-WalletExample.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41815D623085095118219A6D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB1BEECC1ED23ECB00061368 /* SceneKit.framework */,
+				389A16F2D40EAFCD02C1EF39 /* libPods-WalletExample.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4685697F6B5E6B84D766B0BB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0A1DE7D7EFCF89212FCB475 /* Pods-WalletExample.debug.xcconfig */,
+				8AE43FF2915C1C315B0748AA /* Pods-WalletExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB564D781ED10E53000471BC = {
+			isa = PBXGroup;
+			children = (
+				AB564D831ED10E53000471BC /* WalletExample */,
+				AB564D821ED10E53000471BC /* Products */,
+				4685697F6B5E6B84D766B0BB /* Pods */,
+				41815D623085095118219A6D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AB564D821ED10E53000471BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB564D811ED10E53000471BC /* WalletExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB564D831ED10E53000471BC /* WalletExample */ = {
+			isa = PBXGroup;
+			children = (
+				AB564D871ED10E53000471BC /* AppDelegate.h */,
+				AB564D881ED10E53000471BC /* AppDelegate.m */,
+				AB564D8A1ED10E53000471BC /* ViewController.h */,
+				AB564D8B1ED10E53000471BC /* ViewController.m */,
+				AB564D8D1ED10E53000471BC /* Main.storyboard */,
+				AB564D901ED10E53000471BC /* Assets.xcassets */,
+				AB564D921ED10E53000471BC /* LaunchScreen.storyboard */,
+				AB564D951ED10E53000471BC /* Info.plist */,
+				AB564D841ED10E53000471BC /* Supporting Files */,
+				AB564D9B1ED10EE8000471BC /* CardCell.h */,
+				AB564D9C1ED10EE8000471BC /* CardCell.m */,
+				AB564D9D1ED10EE8000471BC /* CardCell.xib */,
+				AB1BEECE1ED23EF300061368 /* ParticleScene.h */,
+				AB1BEECF1ED23EF300061368 /* ParticleScene.m */,
+				AB1BEED11ED24CBC00061368 /* Fireflies.sks */,
+				AB1BEED71ED2501000061368 /* Spark.sks */,
+				AB1BEED91ED27D2F00061368 /* AnimationController.h */,
+				AB1BEEDA1ED27D2F00061368 /* AnimationController.m */,
+			);
+			path = WalletExample;
+			sourceTree = "<group>";
+		};
+		AB564D841ED10E53000471BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB564D851ED10E53000471BC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB564D801ED10E53000471BC /* WalletExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB564D981ED10E53000471BC /* Build configuration list for PBXNativeTarget "WalletExample" */;
+			buildPhases = (
+				98470DA77BB9D8BC143C67A5 /* [CP] Check Pods Manifest.lock */,
+				AB564D7D1ED10E53000471BC /* Sources */,
+				AB564D7E1ED10E53000471BC /* Frameworks */,
+				AB564D7F1ED10E53000471BC /* Resources */,
+				24DBCCAD70A06862088E2BFF /* [CP] Embed Pods Frameworks */,
+				4DBE8F0D94B59C746A099DD5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalletExample;
+			productName = WalletExample;
+			productReference = AB564D811ED10E53000471BC /* WalletExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB564D791ED10E53000471BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jonathan Yeung";
+				TargetAttributes = {
+					AB564D801ED10E53000471BC = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 23A86FA4TX;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AB564D7C1ED10E53000471BC /* Build configuration list for PBXProject "WalletExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB564D781ED10E53000471BC;
+			productRefGroup = AB564D821ED10E53000471BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB564D801ED10E53000471BC /* WalletExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB564D7F1ED10E53000471BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB564D941ED10E53000471BC /* LaunchScreen.storyboard in Resources */,
+				AB564D911ED10E53000471BC /* Assets.xcassets in Resources */,
+				AB564D8F1ED10E53000471BC /* Main.storyboard in Resources */,
+				AB564D9F1ED10EE8000471BC /* CardCell.xib in Resources */,
+				AB1BEED21ED24CBC00061368 /* Fireflies.sks in Resources */,
+				AB1BEED81ED2501000061368 /* Spark.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24DBCCAD70A06862088E2BFF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalletExample/Pods-WalletExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DBE8F0D94B59C746A099DD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalletExample/Pods-WalletExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98470DA77BB9D8BC143C67A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB564D7D1ED10E53000471BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB564D8C1ED10E53000471BC /* ViewController.m in Sources */,
+				AB564D891ED10E53000471BC /* AppDelegate.m in Sources */,
+				AB564D861ED10E53000471BC /* main.m in Sources */,
+				AB1BEED01ED23EF300061368 /* ParticleScene.m in Sources */,
+				AB1BEEDB1ED27D2F00061368 /* AnimationController.m in Sources */,
+				AB564D9E1ED10EE8000471BC /* CardCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AB564D8D1ED10E53000471BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB564D8E1ED10E53000471BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB564D921ED10E53000471BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB564D931ED10E53000471BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB564D961ED10E53000471BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB564D971ED10E53000471BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB564D991ED10E53000471BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0A1DE7D7EFCF89212FCB475 /* Pods-WalletExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23A86FA4TX;
+				INFOPLIST_FILE = WalletExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JY.WalletExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB564D9A1ED10E53000471BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE43FF2915C1C315B0748AA /* Pods-WalletExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23A86FA4TX;
+				INFOPLIST_FILE = WalletExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JY.WalletExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB564D7C1ED10E53000471BC /* Build configuration list for PBXProject "WalletExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB564D961ED10E53000471BC /* Debug */,
+				AB564D971ED10E53000471BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB564D981ED10E53000471BC /* Build configuration list for PBXNativeTarget "WalletExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB564D991ED10E53000471BC /* Debug */,
+				AB564D9A1ED10E53000471BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB564D791ED10E53000471BC /* Project object */;
+}

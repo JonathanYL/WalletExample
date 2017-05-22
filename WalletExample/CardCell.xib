@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CardCell">
+            <rect key="frame" x="0.0" y="0.0" width="281" height="429"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="281" height="429"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cme-OB-6Um">
+                        <rect key="frame" x="21" y="39" width="240" height="350"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="creditcard-blue" translatesAutoresizingMaskIntoConstraints="NO" id="RDP-pa-fo3">
+                                <rect key="frame" x="15" y="15" width="210" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="jHV-af-EFo"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a0W-og-wAu">
+                                <rect key="frame" x="20" y="165" width="200" height="102.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MERCHANT NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifp-mU-pOf">
+                                        <rect key="frame" x="0.0" y="0.0" width="52.5" height="8.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="6"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amazon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQN-vu-yO0">
+                                        <rect key="frame" x="0.0" y="8.5" width="40" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="11"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GIFTER NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ema-fV-S5g">
+                                        <rect key="frame" x="0.0" y="39" width="39.5" height="8.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="6"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harmony Hsieh" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sBh-98-Cgd">
+                                        <rect key="frame" x="0.0" y="48" width="75" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="11"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATE RECEIVED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="27p-lX-Kda">
+                                        <rect key="frame" x="0.0" y="78.5" width="45" height="8.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="6"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="November 24, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="76D-3b-tv8">
+                                        <rect key="frame" x="0.0" y="87" width="95.5" height="15.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="11"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AMOUNT" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTq-kv-dsY">
+                                        <rect key="frame" x="153" y="0.0" width="27" height="8.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="6"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MAd-a6-2kn">
+                                        <rect key="frame" x="153" y="8.5" width="47" height="20.5"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Light" family="Avenir" pointSize="15"/>
+                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="hTq-kv-dsY" secondAttribute="trailing" constant="20" id="3Zn-fe-y2V"/>
+                                    <constraint firstItem="sBh-98-Cgd" firstAttribute="leading" secondItem="a0W-og-wAu" secondAttribute="leading" id="6IJ-eJ-4vi"/>
+                                    <constraint firstItem="hTq-kv-dsY" firstAttribute="top" secondItem="a0W-og-wAu" secondAttribute="top" id="6Kf-TE-N77"/>
+                                    <constraint firstItem="OQN-vu-yO0" firstAttribute="top" secondItem="ifp-mU-pOf" secondAttribute="bottom" id="8ed-hb-iM0"/>
+                                    <constraint firstItem="27p-lX-Kda" firstAttribute="top" secondItem="sBh-98-Cgd" secondAttribute="bottom" constant="15" id="BtP-z5-1aK"/>
+                                    <constraint firstItem="Ema-fV-S5g" firstAttribute="top" secondItem="OQN-vu-yO0" secondAttribute="bottom" constant="15" id="Cej-Th-kqP"/>
+                                    <constraint firstItem="Ema-fV-S5g" firstAttribute="leading" secondItem="a0W-og-wAu" secondAttribute="leading" id="G0u-iz-qOu"/>
+                                    <constraint firstItem="76D-3b-tv8" firstAttribute="leading" secondItem="a0W-og-wAu" secondAttribute="leading" id="OrI-JV-B2N"/>
+                                    <constraint firstItem="MAd-a6-2kn" firstAttribute="top" secondItem="hTq-kv-dsY" secondAttribute="bottom" id="R49-m9-auq"/>
+                                    <constraint firstAttribute="bottom" secondItem="76D-3b-tv8" secondAttribute="bottom" id="TBb-hM-u3c"/>
+                                    <constraint firstItem="ifp-mU-pOf" firstAttribute="leading" secondItem="a0W-og-wAu" secondAttribute="leading" id="bgG-GH-FgK"/>
+                                    <constraint firstItem="OQN-vu-yO0" firstAttribute="leading" secondItem="a0W-og-wAu" secondAttribute="leading" id="eR4-iA-iNO"/>
+                                    <constraint firstItem="sBh-98-Cgd" firstAttribute="top" secondItem="Ema-fV-S5g" secondAttribute="bottom" id="fXl-PE-gKW"/>
+                                    <constraint firstItem="27p-lX-Kda" firstAttribute="leading" secondItem="a0W-og-wAu" secondAttribute="leading" id="iaw-vM-BUH"/>
+                                    <constraint firstAttribute="trailing" secondItem="MAd-a6-2kn" secondAttribute="trailing" id="mAc-HK-Abz"/>
+                                    <constraint firstItem="ifp-mU-pOf" firstAttribute="top" secondItem="a0W-og-wAu" secondAttribute="top" id="nYg-9R-M1m"/>
+                                    <constraint firstItem="MAd-a6-2kn" firstAttribute="leading" secondItem="hTq-kv-dsY" secondAttribute="leading" id="oh2-9V-aeg"/>
+                                    <constraint firstItem="76D-3b-tv8" firstAttribute="top" secondItem="27p-lX-Kda" secondAttribute="bottom" id="z2z-2B-SeK"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d8P-43-ykp">
+                                <rect key="frame" x="0.0" y="310" width="240" height="40"/>
+                                <color key="backgroundColor" red="0.70588235294117641" green="0.6470588235294118" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="UeO-Io-m7I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="11"/>
+                                <state key="normal" title="View Details">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="a0W-og-wAu" firstAttribute="centerX" secondItem="cme-OB-6Um" secondAttribute="centerX" id="2qd-oF-rec"/>
+                            <constraint firstAttribute="height" constant="350" id="A5d-oq-ZgH"/>
+                            <constraint firstAttribute="width" constant="240" id="Az0-cf-rjd"/>
+                            <constraint firstItem="a0W-og-wAu" firstAttribute="width" secondItem="RDP-pa-fo3" secondAttribute="width" constant="-10" id="DU8-jQ-tdd"/>
+                            <constraint firstItem="a0W-og-wAu" firstAttribute="top" secondItem="RDP-pa-fo3" secondAttribute="bottom" constant="20" id="JaG-Qb-w6U"/>
+                            <constraint firstAttribute="trailing" secondItem="d8P-43-ykp" secondAttribute="trailing" id="LZf-2b-Ubd"/>
+                            <constraint firstItem="RDP-pa-fo3" firstAttribute="leading" secondItem="cme-OB-6Um" secondAttribute="leading" constant="15" id="UgT-Cf-a86"/>
+                            <constraint firstItem="d8P-43-ykp" firstAttribute="leading" secondItem="cme-OB-6Um" secondAttribute="leading" id="dGH-C2-TKf"/>
+                            <constraint firstItem="RDP-pa-fo3" firstAttribute="top" secondItem="cme-OB-6Um" secondAttribute="top" constant="15" id="v3m-N6-ER1"/>
+                            <constraint firstAttribute="bottom" secondItem="d8P-43-ykp" secondAttribute="bottom" id="xn8-Db-hLS"/>
+                            <constraint firstAttribute="trailing" secondItem="RDP-pa-fo3" secondAttribute="trailing" constant="15" id="z1D-N4-csv"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cme-OB-6Um" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="Nsz-Vk-FvL"/>
+                <constraint firstItem="cme-OB-6Um" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="R3O-iI-CtM"/>
+            </constraints>
+            <size key="customSize" width="281" height="429"/>
+            <connections>
+                <outlet property="cardContainerView" destination="cme-OB-6Um" id="0MR-HX-jWd"/>
+                <outlet property="creditCardButton" destination="d8P-43-ykp" id="Udc-cz-3lA"/>
+                <outlet property="creditCardImageView" destination="RDP-pa-fo3" id="RQO-Ar-CR3"/>
+            </connections>
+            <point key="canvasLocation" x="-22.5" y="41.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="creditcard-blue" width="173" height="107"/>
+    </resources>
+</document>
